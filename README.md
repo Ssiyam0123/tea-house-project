@@ -1,6 +1,6 @@
 # Organic Matcha Tea House Landing Page
 
-**Live Demo:** [https://ssiyam0123.github.io/tea-house-project/](https://ssiyam0123.github.io/tea-house-project/)
+**Live Demo:** [https://siyam-io.github.io/tea-house-project/](https://siyam-io.github.io/tea-house-project/)
 
 A premium, elegant, and fully responsive landing page for an organic Japanese Matcha tea brand. Designed with beautiful typography, high-res generated imagery, and structured product storytelling.
 
