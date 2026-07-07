@@ -484,3 +484,181 @@ body {
         font-size: 32px;
     }
 }
+
+/* Health Benefits Section */
+.benefits-section {
+    padding: 100px 0;
+    background-color: var(--white);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.benefit-card {
+    background-color: var(--bg-matcha);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(27, 59, 24, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.benefit-icon {
+    font-size: 36px;
+    color: var(--sage-green);
+    margin-bottom: 24px;
+}
+
+.benefit-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: var(--dark-green);
+    margin-bottom: 16px;
+}
+
+.benefit-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--charcoal);
+}
+
+/* Customer Reviews Section */
+.reviews-section {
+    padding: 100px 0;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.review-card {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(27, 59, 24, 0.03);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rating {
+    color: var(--gold);
+    font-size: 14px;
+}
+
+.review-text {
+    font-style: italic;
+    font-size: 15px;
+    color: var(--charcoal);
+    line-height: 1.7;
+}
+
+.reviewer-details h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+.reviewer-details p {
+    font-size: 13px;
+    color: var(--sage-green);
+}
+
+/* Order Section */
+.order-section {
+    padding: 100px 0;
+    background-color: var(--white);
+}
+
+.order-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.product-card {
+    background-color: var(--bg-matcha);
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid rgba(27, 59, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--dark-green);
+    color: var(--white);
+    padding: 4px 12px;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.product-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: var(--dark-green);
+}
+
+.product-desc {
+    font-size: 14px;
+    color: var(--charcoal);
+    line-height: 1.6;
+}
+
+.product-price {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--dark-green);
+}
+
+.product-price .unit {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--sage-green);
+}
+
+.btn-order-now {
+    background-color: var(--dark-green);
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+}
+
+.btn-order-now:hover {
+    background-color: var(--sage-green);
+}
