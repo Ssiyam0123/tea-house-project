@@ -3,30 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- google font -->
+    <title>Matcha | History, Culture & Organic Wellness</title>
+    <!-- Google Fonts: Playfair Display for headings & Inter for body -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<!-- font awesome cdn -->
-<script src="https://kit.fontawesome.com/f9997c586b.js" crossorigin="anonymous"></script>
-<!-- tailwind css -->
-<script src="https://cdn.tailwindcss.com"></script>
-    <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-  </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style-dgsn.css">
 </head>
 <body>
-    <div class=>
-        ji
-    </div>
+
+    <!-- Header Navigation -->
+    <header class="matcha-header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-leaf"><i class="fa-solid fa-leaf"></i></span> MATCHA
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Overview</a></li>
+                <li><a href="#history">History & Culture</a></li>
+                <li><a href="#process">How It's Made</a></li>
+                <li><a href="#compare">Matcha vs Others</a></li>
+            </ul>
+            <div class="header-location">
+                <i class="fa-solid fa-location-dot"></i> <span>Kyoto, Japan</span>
+            </div>
+            <div class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container text-center">
+            <h1 class="hero-title">Matcha</h1>
+            <p class="hero-subtitle">What is Matcha? History, Culture & Wellness</p>
+            
+            <div class="hero-image-wrapper">
+                <img src="images/matcha_hero.png" alt="Two hands holding cups of fresh iced matcha latte" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- History and Origin Section -->
+    <section id="history" class="history-section">
+        <div class="container history-container">
+            <div class="history-content">
+                <h2 class="section-title">Origin & History</h2>
+                
+                <div class="history-item">
+                    <span class="history-icon"><i class="fa-solid fa-star-of-life"></i></span>
+                    <p>During the Tang and Song Dynasties in China, powdered tea was popular among the aristocracy and Buddhist monks. In Chinese monasteries, tea leaves were ground into a fine powder and whisked in bowls, serving as both a medicine and a stimulant during long hours of meditation.</p>
+                </div>
+
+                <div class="history-item">
+                    <span class="history-icon"><i class="fa-solid fa-star-of-life"></i></span>
+                    <p>In 1191, the Buddhist monk Eisai traveled to China to study Zen. Upon his return to Japan, he brought back tea seeds and the powdered preparation method. Eisai planted the seeds at a temple in Kyoto and wrote the first Japanese book on tea, highlighting its spiritual and physical health benefits.</p>
+                </div>
+            </div>
+            <div class="history-visual">
+                <!-- A decorative grid card symbolizing Matcha culture -->
+                <div class="matcha-card-pattern">
+                    <div class="pattern-badge">Ceremonial Grade</div>
+                    <h3>The Way of Tea</h3>
+                    <p>Known as Chanoyu, the Japanese tea ceremony is a choreographic ritual of preparing and serving green tea, celebrating mindfulness, respect, and tranquility.</p>
+                    <div class="pattern-footer">
+                        <i class="fa-solid fa-wind"></i> <span>Pure Organic</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology of Production -->
+    <section id="process" class="process-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Production Technology</h2>
+                <p class="section-subtitle">The traditional, step-by-step craftsmanship of premium matcha.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <h3>Shading from the Sun</h3>
+                    <p>About 20 days before harvest, the tea bushes are shaded under bamboo mats or nets. This reduces sunlight, boosting chlorophyll levels to turn the leaves a vibrant jade green and increasing the L-theanine amino acid content.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <h3>Traditional Hand-picking</h3>
+                    <p>Only the youngest, most tender tea leaves (called Tencha) are carefully hand-picked in early spring. This ensures that the matcha has a sweet, smooth flavor profile free of bitter stems.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <h3>Steaming and Air-Drying</h3>
+                    <p>Immediately after harvest, the leaves are steamed to stop oxidation and preserve their natural green color and health benefits. They are then gently dried in large chambers without crushing them.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <h3>Slow Stone Grinding</h3>
+                    <p>After removing stems and veins, the pure leaves are slowly ground using traditional granite stone mills. It takes about an hour to grind just 30 grams of matcha to prevent friction heat from damaging the flavor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="compare" class="comparison-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">How to distinguish high-quality Matcha?</h2>
+                <p class="section-subtitle">Spot the difference between authentic ceremonial Matcha and regular green tea powder.</p>
+            </div>
+            
+            <div class="comparison-grid">
+                <div class="compare-card authentic">
+                    <div class="card-tag">Authentic Matcha</div>
+                    <h3>Ceremonial Grade Matcha</h3>
+                    <ul class="compare-list">
+                        <li><i class="fa-solid fa-circle-check text-green"></i> Vibrant jade green color (due to high chlorophyll).</li>
+                        <li><i class="fa-solid fa-circle-check text-green"></i> Extremely fine talcum-powder texture.</li>
+                        <li><i class="fa-solid fa-circle-check text-green"></i> Naturally sweet, rich umami taste with no bitterness.</li>
+                        <li><i class="fa-solid fa-circle-check text-green"></i> Ground slowly using granite stone mills.</li>
+                    </ul>
+                </div>
+                <div class="compare-card cheap">
+                    <div class="card-tag">Regular Tea Powder</div>
+                    <h3>Fumatsucha / Green Tea Powder</h3>
+                    <ul class="compare-list">
+                        <li><i class="fa-solid fa-circle-xmark text-muted"></i> Dull, brownish or yellowish green color.</li>
+                        <li><i class="fa-solid fa-circle-xmark text-muted"></i> Coarser texture, leaves grittiness in the cup.</li>
+                        <li><i class="fa-solid fa-circle-xmark text-muted"></i> Bitter, astringent taste requiring sugar or milk.</li>
+                        <li><i class="fa-solid fa-circle-xmark text-muted"></i> Ground quickly using industrial metal blades.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="matcha-footer">
+        <div class="container footer-container text-center">
+            <div class="footer-logo">
+                <i class="fa-solid fa-leaf"></i> MATCHA
+            </div>
+            <p class="footer-copy">Exploring the art, culture, and pure health benefits of organic Japanese green tea.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Matcha Culture. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile navigation handler
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
