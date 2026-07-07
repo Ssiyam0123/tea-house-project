@@ -1,6 +1,7 @@
 /* Premium Matcha Landing Page Stylesheet */
 :root {
     --bg-cream: #FAF8F5;
+    --bg-matcha: #ECF0EF;
     --dark-green: #1B3B18;
     --leaf-green: #2E4C2A;
     --sage-green: #4E7849;
@@ -21,7 +22,7 @@
 body {
     font-family: 'Inter', sans-serif;
     color: var(--charcoal);
-    background-color: var(--white);
+    background-color: var(--bg-matcha);
     line-height: 1.7;
     overflow-x: hidden;
 }
@@ -39,7 +40,7 @@ body {
 
 /* Header & Nav */
 .matcha-header {
-    background-color: var(--white);
+    background-color: var(--bg-matcha);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -110,7 +111,7 @@ body {
 /* Hero Section */
 .hero-section {
     padding: 30px 0 60px 0;
-    background-color: var(--white);
+    background-color: var(--bg-matcha);
 }
 
 .hero-container {
